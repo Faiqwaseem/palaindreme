@@ -7,9 +7,9 @@ function palaindrome() {
     }
     console.log(contcatStr)
     if (userInput.toLowerCase() == contcatStr.toLowerCase()) {
-        document.getElementById("paltext").innerText = "PALAINDROME";
+        document.getElementById("paltext").innerText ="Yes this is " + userInput + " PALAINDROME";
     } else {
-        document.getElementById("paltext").innerText = "NOT PALAINDROME";
+        document.getElementById("paltext").innerText = "NOT this is " + userInput + " PALAINDROME";
 
     }
 }
